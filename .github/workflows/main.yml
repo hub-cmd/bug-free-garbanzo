@@ -30,4 +30,4 @@ jobs:
           AIRTABLE_APP_ID: ${{ secrets.AIRTABLE_APP_ID }}
           AIRTABLE_TABLE_VIEW_URL: ${{ secrets.AIRTABLE_TABLE_VIEW_URL }}
         run: |
-          python main.py
+          python app.py
