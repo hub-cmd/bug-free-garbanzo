@@ -33,7 +33,7 @@ jobs:
           python app.py
 
       - name: Upload results artifact
-        uses: actions/upload-artifact@v3
+        uses: actions/upload-artifact@v4
         with:
           name: airtable_results
           path: revision_history_full.json
