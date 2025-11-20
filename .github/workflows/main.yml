@@ -31,3 +31,9 @@ jobs:
           AIRTABLE_TABLE_VIEW_URL: ${{ secrets.AIRTABLE_TABLE_VIEW_URL }}
         run: |
           python app.py
+
+      - name: Upload results artifact
+        uses: actions/upload-artifact@v3
+        with:
+          name: airtable_results
+          path: revision_history_full.json
