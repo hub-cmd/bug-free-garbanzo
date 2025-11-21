@@ -1,8 +1,8 @@
 name: Daily Airtable Scraper Run
 
 on:
-  schedule:
-    - cron: '0 0 * * *'   # Runs once a day at 00:00 UTC
+  # schedule:
+  #   - cron: '0 0 * * *'   # Runs once a day at 00:00 UTC
   workflow_dispatch:
 jobs:
   run_scraper:
